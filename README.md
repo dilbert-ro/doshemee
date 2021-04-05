@@ -24,9 +24,14 @@
 * [SMFL library documentation](https://www.sfml-dev.org/learn.php)
 * [GitKraken documentation](https://support.gitkraken.com/)
 * [Visual Studio Code documentation](https://code.visualstudio.com/docs)
+* [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+* [C/C++ Project Generator for VS Code](https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-project-generator)
+* [VS Code Makefile Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools)
 * [C++ reference](https://en.cppreference.com/w/)
 * [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [Git documentation](https://git-scm.com/doc)
+* [gcc for Windows](https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j)
+* [make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
 
 # Roadmap
 * implement Pong -> Space Invaders -> Arkanoid
