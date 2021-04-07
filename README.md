@@ -15,23 +15,23 @@
 
 # Setup
 * create a [GitHub account](https://github.com/join) if you don't already have one
-* install [GitKraken](https://www.gitkraken.com/)
+* install [gcc for Windows](https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j) (mingw32-base and mingw32-gcc-g++)
+* install [git](https://git-scm.com/downloads)
 * install [Visual Studio Code](https://code.visualstudio.com/) IDE
+* install [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension
+* install [VS Code Makefile Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools) extension
 * [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository
 * [watch](https://docs.github.com/en/enterprise-server@2.20/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories) this repository so you will get notifications when it is updated
 
+:warning: **WARNING! the project compiles only on Windows and g++ (MinGW.org GCC-6.3.0-1) 6.3.0 is required**
+
 # Resources
 * [SMFL library documentation](https://www.sfml-dev.org/learn.php)
-* [GitKraken documentation](https://support.gitkraken.com/)
 * [Visual Studio Code documentation](https://code.visualstudio.com/docs)
-* [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+* [Git documentation](https://git-scm.com/doc)
 * [C/C++ Project Generator for VS Code](https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-project-generator)
-* [VS Code Makefile Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools)
 * [C++ reference](https://en.cppreference.com/w/)
 * [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
-* [Git documentation](https://git-scm.com/doc)
-* [gcc for Windows](https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j)
-* [make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
 
 # Roadmap
 * implement Pong -> Space Invaders -> Arkanoid
