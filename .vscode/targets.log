@@ -1,0 +1,436 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Wed Apr 07 15:24:15 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+# makefile (from `makefile', line 21)
+SRC := src
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 48)
+INCLUDES := -Iinclude -ISFML-2.5.1/include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environmen 
+t
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Projects/test3
+# default
+SHELL := sh.exe
+# makefile (from `makefile', line 35)
+RM := del /q /f
+# environment
+ProgramFiles(x86) = C:\Program Files (x86)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+MSMPI_BIN = C:\Program Files\Microsoft MPI\Bin\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ 
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\adrian\AppData\Roaming\Code\CachedData\c185983a683d14c396952dd432459097bc7f757f
+# environment
+TMP = C:\Users\adrian\AppData\Local\Temp
+# makefile (from `makefile', line 54)
+SOURCES := src/main.cpp
+# makefile (from `makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g -DSFML_STATIC -static-libgcc -static-libstdc++ -mwindows
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+SystemDrive = C:
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cf9af816-aaf8-45c7-b87a-dc6685bdcfb2-sock
+# environment
+VSCODE_CWD = C:\Users\adrian\AppData\Local\Programs\Microsoft VS Code
+# environment
+SystemRoot = C:\WINDOWS
+# environment
+PATH = C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Cuminas\Document Express DjVu Plug-in\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files (x86)\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Users\adrian\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\adrian\AppData\Local\Microsoft\WindowsApps;C:\Users\adrian\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;;C:\Users\adrian\Ap 
+pData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin
+# environment
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+# makefile (from `makefile', line 36)
+MD := mkdir
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\adrian
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+ComSpec = C:\WINDOWS\system32\cmd.exe
+# makefile (from `makefile', line 33)
+LIBDIRS := lib
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NU 
+MBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+UIPATH_RUNTIME = C:\work\Driver\Output\bin\Debug
+# environment
+ProgramW6432 = C:\Program Files
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10440_YJEXGNJAWAJODHZM
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-D23V8Q9
+# makefil 
+e (from `makefile', line 65)
+OUTPUTMAIN := output\main.exe
+# environment
+UIPATH_ENABLE_UIA_IN_EDGE = 1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = adrian
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+CommonProgramW6432 = C:\Program Files\Common Files
+# environment
+ProgramData = C:\ProgramData
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ 
+LOGONSERVER = \\DESKTOP-D23V8Q9
+# makefile (from `makefile', line 32)
+INCLUDEDIRS := include
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-D23V8Q9
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 34)
+FIXPATH = $(subst /,\,$1)
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_151
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 24)
+INCLUDE := include
+# makefile (from 
+ `makefile', line 31)
+SOURCEDIRS := src
+# environment
+OneDrive = C:\Users\adrian\OneDrive
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 15)
+LFLAGS = SFML-2.5.1/lib/libsfml-graphics.a SFML-2.5.1/lib/libsfml-window.a SFML-2.5.1/lib/libsfml-system.a
+# environment
+DriverData = C:\Windows\System32\Drivers\DriverData
+# environment
+LOCALAPPDATA = C:\Users\adrian\AppData\Local
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# a 
+utomatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\8620696619e3b103ac4999b558be51d1-1.55.0-main-sock
+# environment
+HOMEPATH = \Users\adrian
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `makefile', line 30)
+MAIN := main.exe
+# environment
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOW 
+S\system32\WindowsPowerShell\v1.0\Modules
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+windir = C:\WINDOWS
+# automatic
++F = $(notdir $+)
+# default
+SUFFIXES := 
+# environment
+APPDATA = C:\Users\adrian\AppData\Roaming
+# environment
+TEMP = C:\Users\adrian\AppData\Local\Temp
+# makefile (from `makefile', line 18)
+OUTPUT := output
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 7)
+CXX = g++
+# makefile (from `makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $( 
+notdir $^)
+# environment
+ProgramFiles = C:\Program Files (x86)
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 5e03
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 57)
+OBJECTS := src/main.o
+# environment
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Interne 
+t Explorer
+# environment
+VSCODE_PID = 10440
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-D23V8Q9
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=14/158=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files (x86)\Razer Chroma SDK\bin (key C:/Program Files (x86)/Razer Chroma SDK/bin, mtime 1577900404): 47 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/S 
+ystem32/WindowsPowerShell/v1.0/, mtime 1552980052): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1615990158): 170 files, no impossibilities.
+# . (key c:/Projects/test3, mtime 1617792772): 9 files, no impossibilities.
+# C:\Program Files (x86)\Cuminas\Document Express DjVu Plug-in\ (key C:/Program Files (x86)/Cuminas/Document Express DjVu Plug-in/, mtime 1520758707): 10 files, no impossibilities.
+# C:\Users\adrian\AppData\Local\Programs\Microsoft VS Code\bin (k 
+ey C:/Users/adrian/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1617642653): 4 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1477113391): 10 files, no impossibilities.
+# C:\Users\adrian\.dotnet\tools: could not be stat'd.
+# C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1508908984): 6 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/d 
+otnet/, mtime 1615990047): 11 files, no impossibilities.
+# C:\Users\adrian\AppData\Local\Microsoft\WindowsApps (key C:/Users/adrian/AppData/Local/Microsoft/WindowsApps, mtime 1617645672): 10 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1525539030): 5 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1564172221): 146 files, no impossib 
+ilities.
+# C:\ProgramData\Oracle\Java\javapath (key C:/ProgramData/Oracle/Java/javapath, mtime 1525539028): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1549717911): 5 files, no impossibilities.
+# C:\Program Files\Razer Chroma SDK\bin (key C:/Program Files/Razer Chroma SDK/bin, mtime 1577208476): 4 files, no impossibilities.
+# src (key c:/Projects/test3/src, mtime 1617793241): 4 files, no impossibilities.
+# C 
+:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1615990030): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1617787616): 3157 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1617643405): 7 files, no impossibilities.
+# C:\Program Files (x86)\PuTTY\ (key C:/Program Files (x86)/PuTTY/, mtime 1519388805): 12 files, no impossibilities.
+# C:\Program Files (x86)\GitExtensions\ (key C:/Program Files (x86)/Git 
+Extensions/, mtime 1584012577): 156 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft VS Code\bin: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1617642291): 59 files, no impossibilities.
+# C:\Program Files\Java\jdk1.8.0_151\bin: could not be stat'd.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1617641674): 5 files, no impossibilities.
+
+# 3880 files, no impossibilities in 28 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all 
+: output main.exe
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+#  commands to execute (from `makefile', line 68):
+	@echo Executing 'all' complete!
+	
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-07 14:00:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-ta 
+ble stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main.exe: src/main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automati 
+c
+# @ := main.exe
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.o
+# automatic
+# | := 
+# automatic
+# < := src/main.o
+# automatic
+# ^ := src/main.o
+# automatic
+# ? := src/main.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  commands to execute (from `makefile', line 74):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-07 14:27:39
+ 
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 90):
+	./$(OUTPUTMAIN)
+	@echo Executing 'run: all' complete!
+	
+
+.cpp.o:
+#  Implicit 
+ rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+	
+
+output:
+#  Implicit rule search has 
+ not been done.
+#  Last modified 2021-04-07 15:24:03
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 71):
+	$(MD) $(OUTPUT)
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 408 
+7 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Apr 07 15:24:15 2021
+
+ 
