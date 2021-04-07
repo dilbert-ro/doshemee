@@ -34,7 +34,7 @@
 * [Google Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 # Roadmap
-* implement Pong -> Space Invaders -> Arkanoid
+* implement Pong -> Asteriods -> Space Invaders -> Arkanoid
 * add multiplayer support and online server
 * make more complex 3D games
 * run games in browsers with [WASM](https://en.wikipedia.org/wiki/WebAssembly)
