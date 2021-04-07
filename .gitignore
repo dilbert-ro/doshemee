@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+/.vscode/configurationCache.log
+/.vscode/dryrun.log
+/.vscode/targes.log
+
+/.vscode/targets.log
