@@ -1,6 +1,6 @@
 # Homework 1
 
-Using [SMFL library](https://www.sfml-dev.org/), draw the Pong game as in the pictre bellow:
+Using [SMFL library](https://www.sfml-dev.org/), draw the Pong game as in the picture bellow:
 
 ![Pong clone](pong.jpg)
 
