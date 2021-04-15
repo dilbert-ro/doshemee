@@ -1,4 +1,4 @@
-# Homework 1
+# Lesson 1
 
 Using [SMFL library](https://www.sfml-dev.org/), draw the Pong game as in the picture bellow:
 

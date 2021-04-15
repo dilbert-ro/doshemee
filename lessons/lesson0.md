@@ -1,6 +1,6 @@
-# Homework 0
+# Lesson 0
 
-* install gcc for Windows, git, VS Code and the required extensions (see [README.md](README.md))
+* install gcc for Windows, git, VS Code and the required extensions (see [README.md](../README.md))
 * you might need to add mingw compiler to the [PATH environment variable](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
 * clone repository
 * build and run the code
