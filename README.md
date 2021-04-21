@@ -6,7 +6,7 @@
 - [Roadmap](#roadmap)
 
 # Goals
-* create a computer game retro-clones: [Pong](https://en.wikipedia.org/wiki/Pong), [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders), [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), [Pacman](https://en.wikipedia.org/wiki/Pac-Man), [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid)
+* create a computer game retro-clone: [Pong](https://en.wikipedia.org/wiki/Pong), [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders), [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), [Pacman](https://en.wikipedia.org/wiki/Pac-Man), [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid)
 * learn C++ language (the modern part) and some of the [standard library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
 * learn some data structures, algorithms and computer graphics
 * learn to work with an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), [Git source control](https://en.wikipedia.org/wiki/Git) and team work on [GitHub](https://github.com/)
