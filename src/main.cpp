@@ -1,9 +1,11 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
+// TODO: this is a way to long main function. We'll split it into pieces later.
 int main()
 {
     sf::RenderWindow window{sf::VideoMode{800, 600}, "Pong"};
+
     const sf::Color MY_GREEN{0, 128, 0};
     sf::Vertex centerLine[] = {sf::Vertex{sf::Vector2f{400.f, 0.f}},
                                sf::Vertex{sf::Vector2f{400.f, 600.f}}};
@@ -51,11 +53,11 @@ int main()
     rightScore.setPosition(600.f, 0.f);
     rightScore.setStyle(sf::Text::Bold);
 
+    // TODO: re-write the main loop to get a constant frame rate.
     // run the program as long as the window is open
     while (window.isOpen())
     {
-        // check all the window's events that were triggered since the last
-        // iteration of the loop
+        // check all the window's events that were triggered since the last iteration of the loop
         sf::Event event;
         while (window.pollEvent(event))
         {
@@ -64,6 +66,33 @@ int main()
                 window.close();
         }
 
+        // Update left paddle position based on keyboard input.
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+        {
+            // Prevent the paddle to go down off screen
+            if (leftPaddle.getPosition().y < 600 - leftPaddle.getSize().y)
+                leftPaddle.move(0.f, 1.f);
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q))
+        {
+            // Prevent the paddle to go up off screen
+            if (leftPaddle.getPosition().y > 0)
+                leftPaddle.move(0.f, -1.f);
+        }
+
+        // Update right paddle position based on keyboard input.
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::L))
+        {
+            if (rightPaddle.getPosition().y < 600 - rightPaddle.getSize().y)
+                rightPaddle.move(0.f, 1.f);
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::P))
+        {
+            if (rightPaddle.getPosition().y > 0)
+                rightPaddle.move(0.f, -1.f);
+        }
+
+        // Clear the screen and redraw all graphics.
         window.clear(MY_GREEN);
 
         window.draw(centerCircle);
